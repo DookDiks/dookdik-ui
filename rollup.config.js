@@ -26,7 +26,7 @@ export default [
 		],
 		plugins: [
 			css(),
-			postcss({ modules: true }),
+			// postcss(),
 			peerDepsExternal(),
 			resolve(),
 			commonjs(),
@@ -38,6 +38,6 @@ export default [
 	{
 		input: "src/index.ts",
 		output: [{ file: "dist/types.d.ts", format: "es" }],
-		plugins: [dts.default(), css(), postcss({ modules: true })],
+		plugins: [dts.default(), css()],
 	},
 ];
