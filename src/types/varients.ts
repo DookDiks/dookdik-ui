@@ -1,0 +1,1 @@
+export type Varients = "default" | "primary" | "secondary" | "highlight" | "error" 

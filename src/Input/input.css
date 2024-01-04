@@ -1,0 +1,92 @@
+@import url(../styles/base.css);
+
+.input {
+	width: 100%;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	font-size: 1rem;
+	border: 1px solid #000;
+	border-radius: 0.25rem;
+
+	transition-duration: 250ms;
+	transition-property: color, background;
+	transition-timing-function: "ease-in-out";
+}
+
+.input:focus {
+	outline: #7e7e7e auto 1px;
+}
+
+.input:disabled {
+	background-color: var(--disabled-color);
+	border-color: var(--disabled-border-color);
+	color: var(--disabled-text-color);
+}
+
+.input::placeholder {
+	color: #b8b8b8;
+}
+
+.primary {
+	color: var(--primary-text-color);
+	background-color: var(--primary-color);
+	border-color: var(--primary-border-color);
+}
+
+.primary:focus {
+	color: var(--primary-text-color);
+	background-color: var(--primary-hover-color);
+	border-color: var(--primary-border-color);
+}
+
+.primary::placeholder {
+	color: var(--primary-placeholder-color);
+}
+
+.secondary {
+	color: var(--secondary-text-color);
+	background-color: var(--secondary-color);
+	border-color: var(--secondary-border-color);
+}
+
+.secondary:focus {
+	color: var(--secondary-text-color);
+	background-color: var(--secondary-hover-color);
+	border-color: var(--secondary-border-color);
+}
+
+.secondary::placeholder {
+	color: var(--secondary-placeholder-color);
+}
+
+.highlight {
+	color: var(--highlight-text-color);
+	background-color: var(--highlight-color);
+	border-color: var(--highlight-border-color);
+}
+
+.highlight:focus {
+	color: var(--highlight-text-color);
+	background-color: var(--highlight-hover-color);
+	border-color: var(--highlight-border-color);
+}
+
+.highlight::placeholder {
+	color: var(--highlight-placeholder-color);
+}
+
+.error {
+	color: var(--error-text-color);
+	background-color: var(--error-color);
+	border-color: var(--error-border-color);
+}
+
+.error:focus {
+	color: var(--error-text-color);
+	background-color: var(--error-hover-color);
+	border-color: var(--error-border-color);
+}
+
+.error::placeholder {
+	color: var(--error-placeholder-color);
+}

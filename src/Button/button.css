@@ -1,0 +1,96 @@
+.button {
+	border: 1px solid #000;
+	border-radius: 0.25rem;
+	padding: 0.5rem 1rem;
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+
+	transition-duration: 250ms;
+	transition-property: color, background;
+	transition-timing-function: "ease-in-out";
+}
+
+.button:hover {
+	background: #e8e8e8;
+}
+
+.button:disabled {
+	background-color: var(--disabled-color);
+	border-color: var(--disabled-border-color);
+	color: var(--disabled-text-color);
+}
+
+.primary {
+	color: var(--primary-text-color);
+	background-color: var(--primary-color);
+	border-color: var(--primary-border-color);
+}
+
+.primary:focus {
+	color: var(--primary-text-color);
+	background-color: var(--primary-hover-color);
+	border-color: var(--primary-border-color);
+}
+
+.primary:hover {
+	color: var(--primary-text-color);
+	background-color: var(--primary-hover-color);
+	border-color: var(--primary-border-color);
+}
+
+.secondary {
+	color: var(--secondary-text-color);
+	background-color: var(--secondary-color);
+	border-color: var(--secondary-border-color);
+}
+
+.secondary:focus {
+	color: var(--secondary-text-color);
+	background-color: var(--secondary-hover-color);
+	border-color: var(--secondary-border-color);
+}
+
+.secondary:hover {
+	color: var(--secondary-text-color);
+	background-color: var(--secondary-hover-color);
+	border-color: var(--secondary-border-color);
+}
+
+.highlight {
+	color: var(--highlight-text-color);
+	background-color: var(--highlight-color);
+	border-color: var(--highlight-border-color);
+}
+
+.highlight:focus {
+	color: var(--highlight-text-color);
+	background-color: var(--highlight-hover-color);
+	border-color: var(--highlight-border-color);
+}
+
+.highlight:hover {
+	color: var(--highlight-text-color);
+	background-color: var(--highlight-hover-color);
+	border-color: var(--highlight-border-color);
+}
+
+.error {
+	color: var(--error-text-color);
+	background-color: var(--error-color);
+	border-color: var(--error-border-color);
+}
+
+.error:focus {
+	color: var(--error-text-color);
+	background-color: var(--error-hover-color);
+	border-color: var(--error-border-color);
+}
+
+.error:hover {
+	color: var(--error-text-color);
+	background-color: var(--error-hover-color);
+	border-color: var(--error-border-color);
+}

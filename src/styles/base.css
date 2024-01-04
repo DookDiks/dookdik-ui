@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #0A2E4E;
+  --secondary-color: #306088;
+  --highlight-color: #FFA07A;
+  --error-color: #B22222;
+  --disabled-color: #d4d4d4;
+
+  --primary-hover-color: #0C3A5F;
+  --secondary-hover-color: #4A7BA6;
+  --highlight-hover-color: #FF8247;
+  --error-hover-color: #CD5C5C;
+
+  --primary-border-color: #082239;
+  --secondary-border-color: #1C4D7C;
+  --highlight-border-color: #D2691E;
+  --error-border-color: #8B0000;
+  --disabled-border-color: #bbbbbb;
+
+  --primary-text-color: #ebebeb;
+  --secondary-text-color: #E6E6E6;
+  --highlight-text-color: #813c21;
+  --error-text-color: #ebebeb;
+  --disabled-text-color: #9b9b9b;
+
+  --primary-placeholder-color: #6689a8;
+  --secondary-placeholder-color: #8bb4d5;
+  --highlight-placeholder-color: #c55e35;
+  --error-placeholder-color: #c77575;
+
+  --primary-text-size: 14px;
+  --secondary-text-size: 16px;
+}

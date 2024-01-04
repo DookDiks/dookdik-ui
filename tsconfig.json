@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "target": "es6",
@@ -9,15 +8,26 @@
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "./src",
+    "skipLibCheck": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
   },
-  "include": [
-    "src/**/*.ts",
-  ],
+  // "include": [
+  //   "src/**/*.ts",
+  // ],
   "exclude": [
-    "tests/**/*.ts"
+    "dist",
+    "tests/**/*.ts",
+    "node_modules",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
   ],
   "lib": [
     "es2015"

@@ -1,4 +1,4 @@
-# Contributing to @dookdiks/template
+# Contributing to @dookdiks/ui
 
 Thank you for your interest in contributing to DookDiks - Error! Contributions are welcome and appreciated. Before contributing, please take a moment to review the guidelines outlined below.
 
@@ -6,7 +6,7 @@ Thank you for your interest in contributing to DookDiks - Error! Contributions a
 
 ### Reporting Bugs
 
-If you find a bug, please ensure that it hasn't already been reported by checking the [issue tracker](https://github.com/DookDiks/template/issues). If not, please open a new issue, providing a clear and detailed description of the bug along with any relevant information to help reproduce it.
+If you find a bug, please ensure that it hasn't already been reported by checking the [issue tracker](https://github.com/DookDiks/dookdik-ui/issues). If not, please open a new issue, providing a clear and detailed description of the bug along with any relevant information to help reproduce it.
 
 ### Requesting Features
 
@@ -35,7 +35,7 @@ If you have a feature request, feel free to open an issue. Clearly describe the 
 
 To set up the project for local development, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/DookDiks/template.git`
+1. Clone the repository: `git clone https://github.com/DookDiks/dookdik-ui.git`
 2. Install dependencies: `npm install`
 3. Make your changes and run tests: `npm test`
 
